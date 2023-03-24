@@ -1,8 +1,9 @@
 #!/bin/bash
 
+serverStartScript="serverStart.sh"
+
 serverRunnerInstructionFile=".runnerInstructions"
 serverStatusFile=".isRunning"
-serverStartScript="serverStart.sh"
 
 echo 1 > $serverRunnerInstructionFile
 
